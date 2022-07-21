@@ -9,6 +9,7 @@ Simple rest API with Laravel 9 using mysql db
 - [Composer](https://getcomposer.org/)
 - [XAMPP](https://www.apachefriends.org/)
 - [Postman](https://www.postman.com/downloads/)
+- [Docsify](https://docsify.js.org/#/)
 
 ## Getting started
 
@@ -41,6 +42,15 @@ Before installation process make sure `composer` is already installed
 ## Run locally for development
 
 - Run `php artisan serve` which will start the server at http://localhost:8000
+
+## Run API docs
+
+Before running `docsify` make sure it is already installed.
+It is recommended to install `docsify-cli` globally, which helps initializing and previewing the website locally. Run `npm i docsify-cli -g` to install it globally.
+
+- Run api docs locally and you can preview your site in your browser on http://localhost:3000
+
+  > docsify serve docs
 
 ## Contributing
 
